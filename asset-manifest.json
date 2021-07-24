@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cc6259e5.chunk.css",
+    "main.js": "/static/js/main.37abd4f9.chunk.js",
+    "main.js.map": "/static/js/main.37abd4f9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b32c1a8d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b32c1a8d.js.map",
+    "static/js/2.af1523c9.chunk.js": "/static/js/2.af1523c9.chunk.js",
+    "static/js/2.af1523c9.chunk.js.map": "/static/js/2.af1523c9.chunk.js.map",
+    "static/js/3.ddc95599.chunk.js": "/static/js/3.ddc95599.chunk.js",
+    "static/js/3.ddc95599.chunk.js.map": "/static/js/3.ddc95599.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.cc6259e5.chunk.css.map": "/static/css/main.cc6259e5.chunk.css.map",
+    "static/js/2.af1523c9.chunk.js.LICENSE.txt": "/static/js/2.af1523c9.chunk.js.LICENSE.txt",
+    "static/media/svgdelivery.svg": "/static/media/svgdelivery.002631c0.svg",
+    "static/media/svgheavybox.svg": "/static/media/svgheavybox.f6a9e046.svg",
+    "static/media/svglogistics.svg": "/static/media/svglogistics.14b6ec33.svg",
+    "static/media/svgtracking.bd3d60f3.svg": "/static/media/svgtracking.bd3d60f3.svg",
+    "static/media/video.386a6d16.mp4": "/static/media/video.386a6d16.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b32c1a8d.js",
+    "static/js/2.af1523c9.chunk.js",
+    "static/css/main.cc6259e5.chunk.css",
+    "static/js/main.37abd4f9.chunk.js"
+  ]
+}
