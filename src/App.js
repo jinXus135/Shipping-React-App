@@ -10,7 +10,7 @@ function App() {
          <Switch>
          <Route path = "/" component = {Home} exact />
          <Route path = "/jinXus135/Shipping-React-App" component = {Home} exact />
-         <Route path = "/Shipping-React-App" component = {Home} exact />
+         <Route path = "https://jinxus135.github.io/Shipping-React-App/" component = {Home} exact />
          <Route path = "/signin" component = {SigninPage} exact />
          <Route path = "/jinXus135/signin" component = {SigninPage} exact />
           </Switch>
