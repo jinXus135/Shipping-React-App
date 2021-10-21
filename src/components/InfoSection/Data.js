@@ -22,7 +22,7 @@ export const homeObjTwo = {
     lightTextDesc: true,
     topLine: 'Logistics made easy!',
     headLine: 'A Brokerage',
-    description: 'As a Brokerage firm we act as a single point of contact between shipper and carrier. We keep take care of the routing and tracking services so that you can dedicate more time to your business and less time on logistics. ',
+    description: 'As a Brokerage firm we act as a single point of contact between shipper and carrier. We keep take care of the routing and tracking services so that you can dedicate more time to your business and less time to logistics. ',
     buttonLabel : 'Discover more',
     imgStart: false,
     img: require('../../images/svgdelivery.svg').default,
