@@ -27,10 +27,13 @@ max-width: 1100px;
 `
 
 export const NavLogo = styled(LinkR)`
+background: black;
+height: 24px;
+margin-top: 24px;
 color: white;
 justify-self: flex-start;
 cursor: pointer;
-font-size: 1.2rem;
+font-size: 1.4rem;
 display: flex;
 align-items: center;
 margin-left: 24px;
