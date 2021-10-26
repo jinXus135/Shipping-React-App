@@ -57,6 +57,8 @@ align-items: center;
 
 export const HeroH1 = styled.h1`
 color: #fff;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black;
 font-size: 48px;
 text-align: center;
 
@@ -72,6 +74,8 @@ text-align: center;
 export const HeroP = styled.p`
 margin-top: 24px;
 color: #fff;
+-webkit-text-stroke-width: 0.2px;
+-webkit-text-stroke-color: black;
 font-size: 20px;
 text-align: center;
 max-width: 600px;

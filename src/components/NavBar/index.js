@@ -22,12 +22,16 @@ const NavBar = ({toggle}) => {
         scroll.scrollToTop();
     };
 
+    const img = {
+        img: require('../../images/mosfreight-logodesign2.svg').default,
+    }
+
     return (
        <>
        <IconContext.Provider value = {{color: '#fff'}}>
        <Nav scrollNav = {scrollNav}>
            <NavBarContainer>
-                <NavLogo to='/' onClick= {toggleHome} >MOS Freight Brokerage </NavLogo>
+                <NavLogo to='/' onClick= {toggleHome} > MOS freight</NavLogo>
                 <MobileIcon onClick={toggle}>
                 <FaBars/>
                 </MobileIcon>

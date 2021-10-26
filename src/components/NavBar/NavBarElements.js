@@ -27,10 +27,13 @@ max-width: 1100px;
 `
 
 export const NavLogo = styled(LinkR)`
-background: black;
+img: require('../../images/mosfreight-logodesign2.svg').default
+//background: black;
 height: 24px;
 margin-top: 24px;
 color: white;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
 justify-self: flex-start;
 cursor: pointer;
 font-size: 1.4rem;
