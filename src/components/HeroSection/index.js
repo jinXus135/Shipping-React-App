@@ -17,7 +17,7 @@ const HeroSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkT
                 <HeroContent>
                     <HeroH1> Shipping Made Easy</HeroH1>
                     <HeroP>
-                    Mos is dedicated to ensuring the your deliveries arrive on time and that you are always in the know when it comes to the status of your products. We partner exclusively with reputable shippers to guarantee quality service both over the phone and at the loading dock.
+                    Mos is dedicated to ensuring that your deliveries arrive on time and that you are always in the know when it comes to the status of your products. We partner exclusively with reputable shippers to guarantee quality service both over the phone and at the loading dock.
                         </HeroP>
                         <HeroBtnWrapper>
                             <Button to = "signup" 
