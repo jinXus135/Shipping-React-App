@@ -27,7 +27,7 @@ max-width: 1100px;
 `
 
 export const NavLogo = styled(LinkR)`
-img: require('../../images/mosfreight-logodesign2.svg').default
+img: require('../../images/mosfreight-logodesign2.svg').default;
 //background: black;
 height: 24px;
 margin-top: 24px;
@@ -43,7 +43,11 @@ margin-left: 24px;
 font-weight: bold;
 text-decoration: none;
 `;
-
+export const NavIcon = styled.img`
+height = 10px;
+width = 10px;
+margin-bottom = 20px;
+`;
 export const MobileIcon = styled.div`
 display: none;
 color: white;

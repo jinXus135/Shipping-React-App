@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { FaBars } from 'react-icons/fa';
 import {IconContext} from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
-import { Nav, NavBarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavBarElements';
+import { Nav ,NavBarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavBarElements';
 
 const NavBar = ({toggle}) => {
     const [scrollNav, setScrollNav] = useState(false);
@@ -23,7 +23,8 @@ const NavBar = ({toggle}) => {
     };
 
     const img = {
-        img: require('../../images/mosfreight-logodesign2.svg').default,
+       img: require('../../images/mosfreight-logodesign2.svg').default,
+    
     }
 
     return (
@@ -31,7 +32,8 @@ const NavBar = ({toggle}) => {
        <IconContext.Provider value = {{color: '#fff'}}>
        <Nav scrollNav = {scrollNav}>
            <NavBarContainer>
-                <NavLogo to='/' onClick= {toggleHome} > MOS freight</NavLogo>
+           <img src = {require('../../images/mosfreight-logodesign2.svg').default} alt= "MOS" />
+                <NavLogo to='/' onClick= {toggleHome} >  </NavLogo>
                 <MobileIcon onClick={toggle}>
                 <FaBars/>
                 </MobileIcon>
