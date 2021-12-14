@@ -5,7 +5,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: 'Shipping Done Right',
     headLine: 'Logistics in the Modern age',
-    description: 'Get access to our exclusive app that allows you to stay up to date on all of your currently active shipments.',
+    description: 'MOS takes pride in what we do which is why we only work with legally certified Brokers, to ensure proffesionalism at every step of the shipping process.',
     buttonLabel : 'Get Started',
     imgStart: true,
     img: require('../../images/svglogistics.svg').default,

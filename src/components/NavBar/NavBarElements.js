@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 import {Link as LinkR }from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll'
+//import { resetGlobalState } from 'mobx/dist/internal'
 export const Nav = styled.nav`
-    background:${({scrollNav}) => (scrollNav ? '#000' : 'transparent')};
+    background:${({scrollNav}) => (scrollNav ? '#FFFFFF' : 'rgba(255,255,255,1.0)')};
     height : 80px;
     margin-top: -80px;
     display: flex;
@@ -78,7 +79,7 @@ justify-self: flex-start;
 `
 
 export const NavItem = styled.li`
-color: white;
+color: black;
 height: 80px;
 text-align: right;
 //position: absolute;
@@ -91,7 +92,7 @@ right : 0;
 `
 
 export const NavLinks = styled(LinkS)`
-color : white;
+color : black;
 display: flex;
 align-items: center;
 text-decoration: none;
@@ -104,7 +105,7 @@ cursor: pointer;
 }
 &:hover{
    
-    border-bottom: 3px solid #6AD7FF;
+    border-bottom: 5px solid #6AD7FF;
 }
 `;
 
@@ -121,10 +122,10 @@ padding: 20px 30px;
 `
 export const NavBtnLink = styled(LinkR)`
 border-radius: 50px;
-background: white;
+background: black;
 white-space: nowrap;
 padding: 10px 22px;
-color : #010606;
+color : white;
 font-size: 16px;
 outline: none;
 border: none;

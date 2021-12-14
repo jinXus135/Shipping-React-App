@@ -23,7 +23,7 @@ const NavBar = ({toggle}) => {
     };
 
     const img = {
-       img: require('../../images/mosfreight-logodesign2.svg').default,
+       img: require('../../images/FILE-4531.svg').default,
     
     }
 
@@ -32,7 +32,7 @@ const NavBar = ({toggle}) => {
        <IconContext.Provider value = {{color: '#fff'}}>
        <Nav scrollNav = {scrollNav}>
            <NavBarContainer>
-           <img src = {require('../../images/mosfreight-logodesign2.svg').default} alt= "MOS" />
+           <img src = {require('../../images/mos-chrome.svg').default} alt= "MOS" />
                 <NavLogo to='/' onClick= {toggleHome} >  </NavLogo>
                 <MobileIcon onClick={toggle}>
                 <FaBars/>
