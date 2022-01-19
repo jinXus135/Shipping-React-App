@@ -6,6 +6,7 @@ import InfoSection from '../components/InfoSection';
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data';
 import Services from '../components/services';
 import Footer from '../components/Footer';
+import {Helmet} from "react-helmet";
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
 
@@ -13,7 +14,10 @@ const Home = () => {
         setIsOpen(!isOpen)
     };
     return (
-        <>
+        <div>
+        <Helmet>
+        
+        </Helmet>
           <Sidebar isOpen={isOpen} toggle= {toggle}/>
           <Navbar toggle={toggle}/>  
           <HeroSection/>
@@ -23,7 +27,7 @@ const Home = () => {
           <InfoSection{...homeObjThree}/>
           <Footer/>
           
-        </>
+        </div>
     )
 }
 
