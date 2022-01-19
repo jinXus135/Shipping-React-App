@@ -5,7 +5,8 @@ const SignIn = () => {
         <>
           <Container>
               <FormWrap>
-                <Icon to='/'>MOS Freight Brokerage</Icon>
+                <Icon to='/'><img src = {require('../../images/FILE-4531.svg').default} alt= "MOS" to='/'
+                 height={150} width={150} /></Icon>
                 <FormContent>
                     <Form action='#'>
                         <FormH1>

@@ -30,8 +30,8 @@ max-width: 1100px;
 export const NavLogo = styled(LinkR)`
 img: require('../../images/mosfreight-logodesign2.svg').default;
 //background: black;
-height: 24px;
-margin-top: 24px;
+height: 16px;
+margin-top: 32px;
 color: white;
 -webkit-text-stroke-width: 1px;
 -webkit-text-stroke-color: black;
@@ -131,6 +131,7 @@ outline: none;
 border: none;
 cursor: pointer;
 transition: all 0.2s ease-in-out;
+align-items: center;
 text-decoration: none;
 &:hover{
     transition: all 0.2s ease-in-out;
@@ -138,3 +139,32 @@ text-decoration: none;
     color : #010606;
 }
 `
+export const NavItemAsLink = styled.li`
+color: black;
+height: 80px;
+text-align: right;
+//position: absolute;
+right : 0;
+
+@media screen and (max-width: 768px){
+    display: none;
+   
+   }
+`;
+export const NavItemAsLinkCert = styled(LinkR)`
+color : black;
+display: flex;
+align-items: center;
+text-decoration: none;
+padding: 0 1rem;
+height: 100%;
+cursor: pointer;
+
+&:active{
+    border-bottom: 3px solid #6AD7FF;
+}
+&:hover{
+   
+    border-bottom: 5px solid #6AD7FF;
+}
+`;
